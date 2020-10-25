@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using DAL;
+using DALServices;
 using LoggingService;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,11 +25,16 @@ namespace ContentApp
 
             using (var scope = host.Services.CreateScope())
             {
+                var services = scope.ServiceProvider;
                 try
-                {
-                    int zero = 0;
-                    int result = 100 / zero;
+                {   
+                    //these objects are created as dbinitailizer class as passed constructor parameters 
+                    var context = services.GetRequiredService<ApplicationDbContext>();
+                    var dpcontext = services.GetRequiredService<DataProtectionKeysContext>();
+                    var functionSvc = services.GetRequiredService<IFunctionalSvc>();
 
+                    DbContextInitializer.Initialize(dpcontext, context, functionSvc)
+                        .Wait();
                 }
                 catch (Exception ex)
                 {

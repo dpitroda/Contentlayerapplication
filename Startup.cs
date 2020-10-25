@@ -1,7 +1,9 @@
+using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,6 +28,13 @@ namespace ContentApp
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+
+            //Starting DB connection string creation
+            services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DevConnection"), x => x.MigrationsAssembly("ContentApp")));
+
+            services.AddDbContext<DataProtectionKeysContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DataProtectionKeysContext"), x => x.MigrationsAssembly("ContentApp")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
