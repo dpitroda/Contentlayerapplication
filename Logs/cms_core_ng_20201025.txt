@@ -1,0 +1,167 @@
+----------------------------------------------------------------------
+Timestamp - 25/10/2020 1:22:58 PM +09:30 | Level - Error |
+----------------------------------------------------------------------
+Error : "Attempted to divide by zero."
+StackTrace : "   at ContentApp.Program.Main(String[] args) in C:\Users\pitro\Desktop\CMSApplication\ContentApp\Program.cs:line 28"
+InnerException : null
+Source : "ContentApp"
+Application : "ContentApp"
+MachineName : "KITTY-0809ZWQ"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "pitro"
+ProcessId : 15812
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 25/10/2020 1:24:59 PM +09:30 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000008-0000-fe00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|6ca51408-46b65017bd0f76e1."
+TraceId : "6ca51408-46b65017bd0f76e1"
+ParentId : ""
+Application : "ContentApp"
+MachineName : "KITTY-0809ZWQ"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "pitro"
+ProcessId : 15812
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 25/10/2020 1:37:33 PM +09:30 | Level - Error |
+----------------------------------------------------------------------
+Error : "Attempted to divide by zero."
+StackTrace : "   at ContentApp.Program.Main(String[] args) in C:\Users\pitro\Desktop\CMSApplication\ContentApp\Program.cs:line 28"
+InnerException : null
+Source : "ContentApp"
+Application : "ContentApp"
+MachineName : "KITTY-0809ZWQ"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "pitro"
+ProcessId : 1672
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 25/10/2020 2:09:47 PM +09:30 | Level - Error |
+----------------------------------------------------------------------
+Error : "Attempted to divide by zero."
+StackTrace : "   at ContentApp.Program.Main(String[] args) in C:\Users\pitro\Desktop\CMSApplication\ContentApp\Program.cs:line 29"
+InnerException : null
+Source : "ContentApp"
+Application : "ContentApp"
+MachineName : "KITTY-0809ZWQ"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "pitro"
+ProcessId : 16268
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 25/10/2020 2:11:48 PM +09:30 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000007-0001-fc00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|2f97d63b-4160255d96e7bef5."
+TraceId : "2f97d63b-4160255d96e7bef5"
+ParentId : ""
+Application : "ContentApp"
+MachineName : "KITTY-0809ZWQ"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "pitro"
+ProcessId : 16268
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 25/10/2020 2:12:14 PM +09:30 | Level - Error |
+----------------------------------------------------------------------
+Error : "Attempted to divide by zero."
+StackTrace : "   at ContentApp.Program.Main(String[] args) in C:\Users\pitro\Desktop\CMSApplication\ContentApp\Program.cs:line 29"
+InnerException : null
+Source : "ContentApp"
+Application : "ContentApp"
+MachineName : "KITTY-0809ZWQ"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "pitro"
+ProcessId : 6608
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 25/10/2020 2:14:15 PM +09:30 | Level - Error |
+----------------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000009-0001-fc00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|a979f73b-452cb1c48004ce08."
+TraceId : "a979f73b-452cb1c48004ce08"
+ParentId : ""
+Application : "ContentApp"
+MachineName : "KITTY-0809ZWQ"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "pitro"
+ProcessId : 6608
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS-------------------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ---------------------------------------------------------------------------
+----------------------------------------------------------------------
+Timestamp - 25/10/2020 2:32:38 PM +09:30 | Level - Error |
+----------------------------------------------------------------------
+Error : "Attempted to divide by zero."
+StackTrace : "   at ContentApp.Program.Main(String[] args) in C:\Users\pitro\Desktop\CMSApplication\ContentApp\Program.cs:line 29"
+InnerException : null
+Source : "ContentApp"
+Application : "ContentApp"
+MachineName : "KITTY-0809ZWQ"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "pitro"
+ProcessId : 480
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------
