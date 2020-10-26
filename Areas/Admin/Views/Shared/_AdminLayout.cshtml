@@ -1,0 +1,33 @@
+﻿<!-- ContentApp.Areas.Admin.Views.Shared._AdminLayoutModel -->
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>ADMIN | Home Page TEMPORARY</title>
+    <meta name="description" content="Content management application with 3 layers" />
+    <meta name="author" content="ContentApp" />
+    <!-- Favicon icon -->
+    <link href="~/favicon.ico" rel="icon" />
+
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+
+    <!-- ============================================================== -->
+    <!-- Main wrapper -->
+    <!-- ============================================================== -->
+    <div class="wrapper">
+
+        <div id="content">
+            @RenderBody()
+        </div>
+
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
