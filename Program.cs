@@ -33,8 +33,7 @@ namespace ContentApp
                     var dpcontext = services.GetRequiredService<DataProtectionKeysContext>();
                     var functionSvc = services.GetRequiredService<IFunctionalSvc>();
 
-                    DbContextInitializer.Initialize(dpcontext, context, functionSvc)
-                        .Wait();
+                    DbContextInitializer.Initialize(dpcontext, context, functionSvc).Wait();
                 }
                 catch (Exception ex)
                 {
