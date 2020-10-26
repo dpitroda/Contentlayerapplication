@@ -13,6 +13,8 @@
     <!-- Favicon icon -->
     <link href="~/favicon.ico" rel="icon" />
 
+    @await Html.PartialAsync("_ApplicationHeaderStylesPartial")
+    
     @RenderSection("Styles", required: false)
 </head>
 <body>
@@ -21,13 +23,16 @@
     <!-- Main wrapper -->
     <!-- ============================================================== -->
     <div class="wrapper">
+        @await Html.PartialAsync("_SidebarLayout")
 
         <div id="content">
+            @await Html.PartialAsync("_TopbarLayout")
             @RenderBody()
         </div>
 
     </div>
-
+    @await Html.PartialAsync("_FooterLayout")
+    @await Html.PartialAsync("_UIScriptsPartial")
     @RenderSection("Scripts", required: false)
 </body>
 </html>
