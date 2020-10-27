@@ -47,7 +47,6 @@
     <Folder Include="Areas\Admin\Views\User\" />
     <Folder Include="Areas\Admin\Views\SiteSettings\" />
     <Folder Include="Areas\Admin\Views\Profile\" />
-    <Folder Include="wwwroot\lib\custom\js\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
