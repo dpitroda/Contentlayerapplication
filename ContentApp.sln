@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "..\BLL\BLL.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DALServices", "..\DALServices\DALServices.csproj", "{790D46A8-5D19-4EF5-8F83-D95641C4369C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiltersService", "..\FiltersService\FiltersService.csproj", "{2951A452-2D81-4B8B-9437-0C22D4E7752B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiltersService", "..\FiltersService\FiltersService.csproj", "{2951A452-2D81-4B8B-9437-0C22D4E7752B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "..\AuthService\AuthService.csproj", "{58855AA4-124A-4822-83B5-02EBE8103A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieService", "..\CookieService\CookieService.csproj", "{B7BF7BF4-AD60-455B-A986-81F233F299FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivityService", "..\ActivityService\ActivityService.csproj", "{B30C20E4-D394-4BFD-BD43-BB76C782DDE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{2951A452-2D81-4B8B-9437-0C22D4E7752B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2951A452-2D81-4B8B-9437-0C22D4E7752B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2951A452-2D81-4B8B-9437-0C22D4E7752B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58855AA4-124A-4822-83B5-02EBE8103A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58855AA4-124A-4822-83B5-02EBE8103A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58855AA4-124A-4822-83B5-02EBE8103A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58855AA4-124A-4822-83B5-02EBE8103A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BF7BF4-AD60-455B-A986-81F233F299FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BF7BF4-AD60-455B-A986-81F233F299FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BF7BF4-AD60-455B-A986-81F233F299FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BF7BF4-AD60-455B-A986-81F233F299FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30C20E4-D394-4BFD-BD43-BB76C782DDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30C20E4-D394-4BFD-BD43-BB76C782DDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30C20E4-D394-4BFD-BD43-BB76C782DDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30C20E4-D394-4BFD-BD43-BB76C782DDE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
