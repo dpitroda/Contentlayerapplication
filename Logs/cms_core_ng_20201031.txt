@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Timestamp - 31/10/2020 10:35:56 AM +09:30 | Level - Warning |
+----------------------------------------------------------------------
+KeyId : b71d679b-a255-46d2-8de4-6f6b89988854
+EventId : { Id: 35 }
+SourceContext : "Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager"
+Application : "ContentApp"
+MachineName : "KITTY-0809ZWQ"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.9"
+UserName : "pitro"
+ProcessId : 14204
+ProcessName : "iisexpress"
+---------------------------------------------------------------------------

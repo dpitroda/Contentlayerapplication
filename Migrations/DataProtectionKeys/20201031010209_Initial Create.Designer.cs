@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContentApp.Migrations.DataProtectionKeys
 {
     [DbContext(typeof(DataProtectionKeysContext))]
-    [Migration("20201026001847_InitialCreate")]
+    [Migration("20201031010209_Initial Create")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
